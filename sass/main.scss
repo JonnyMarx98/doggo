@@ -1,0 +1,20 @@
+.doggo {
+  position: relative;
+  height: 100vh;
+
+  &__img {
+    width: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all ease-in 3s;
+    outline-offset: 1rem;
+
+    &:hover {
+      transform: scale(50) skewX(13deg) rotateY(47deg);
+      outline: 1rem solid #919191;
+    }
+  }
+}
